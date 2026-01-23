@@ -2,7 +2,6 @@
 import java.util.Scanner;
 
 
-
 public class Main {
     public static void main(String[] args) {
         // output
@@ -78,20 +77,24 @@ public class Main {
         //     System.out.println("b is greater");
         //     }
         // }
-        int button = sc.nextInt();
+        // int button = sc.nextInt();
 
-        Switch(button){
-            case 1:
-                System.out.println("Hello");
-                break;
-            case 2:
-                System.out.println("Namaste");
-                break;
-            case 3:
-                System.out.println("Bonjour");
-                break;
-            default:
-                System.out.println("Invalid Input");
+        // Switch(button){
+        //     case 1:
+        //         System.out.println("Hello");
+        //         break;
+        //     case 2:
+        //         System.out.println("Namaste");
+        //         break;
+        //     case 3:
+        //         System.out.println("Bonjour");
+        //         break;
+        //     default:
+        //         System.out.println("Invalid Input");
+
+        int x = sc.nextInt();
+        for(int i=1; i<=10; i++){
+            System.out.println(i * x);
         }
     }
 }
